@@ -4,6 +4,13 @@ public class AppLauncher {
 
     public static void main(String[] args) {
         wordCounter();
+
+        PhoneBook phoneBook = new PhoneBook();
+        phoneBook.add(123456789, "Surname1");
+        phoneBook.add(223456789, "Surname2");
+        phoneBook.add(323456789, "Surname1");
+        phoneBook.add(423456789, "Surname4");
+        phoneBook.add(523456789, "Surname5");
     }
 
     public static void wordCounter() {
